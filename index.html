@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h2>Ma Liste de Tâches</h2>
+
+    <div id="container">
+
+        <form id="ajout_tache">
+            <input
+                type="text"
+                id="new_tache"
+                placeholder="Ajouter une nouvelle tâche..."
+                aria-label="Nouvelle tâche"
+            >
+            <button type="submit" id="ajout">Ajouter</button>
+        </form>
+
+        <ul id="list">
+            <!-- Les tâches seront ajoutées ici dynamiquement -->
+        </ul>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
